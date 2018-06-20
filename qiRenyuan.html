@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>企业版人员</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/gonggong.css" type="text/css" />
+    <link rel="stylesheet" href="css/qiRenyuan.css" type="text/css" />
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="center">
+            <h1 class="fl">
+                <img src="images/logo.jpg" alt="" />
+                <span>快送企业版</span>
+            </h1>
+            <ul class="fl">
+                <li><a href="qiIndex.html">首页<p></p></a></li>
+                <li class="active"><a href="qiRenyuan.html">人员<p></p></a></li>
+                <li><a href="qiDingdan.html">订单<p></p></a></li>
+                <li><a href="qiCaiwu.html">财务<p></p></a></li>
+                <li><a href="qiXinxi.html">企业设置<p></p></a></li>
+            </ul>
+            <div class="fr">
+                <input type="submit" value="登录" />|
+                <input type="submit" value="注册" />
+            </div>
+        </div>
+    </header>
+
+    <!-- 内容 -->
+    <div class="main">
+        <div class="center">
+            <h1>员工管理</h1>
+            <div class="top">
+                <p class="telephone">
+                    <span>员工手机号码</span>
+                    <input type="text" />
+                </p>
+                <p class="name">
+                    <span>员工姓名</span>
+                    <input type="text" />
+                </p>
+                <p>
+                    <span>所属部门</span>
+                    <select name="" id="">
+                        <option value="全部">全部</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                </p>
+                <p>
+                    <span>系统角色</span>
+                    <select name="" id="">
+                        <option value="全部">全部</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                </p>
+                <button class="fr">查询</button>
+            </div>
+            <div class="down">
+                <div class="title">
+                    <span>员工列表</span>
+                    <p><img src="images/qiye/renyuanImg2.png" alt="" />批量导入</p>
+                    <p><img src="images/qiye/renyuanImg1.png" alt="" />新增员工</p>
+                </div>
+                <table class="table"  border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <th>员工姓名</th>
+                        <th>手机号</th>
+                        <th>所属部门</th>
+                        <th>员工编号</th>
+                        <th>系统角色</th>
+                        <th>是否用公司约</th>
+                        <th>操作</th>
+                    </tr>
+                    <tr>
+                        <td>康师傅</td>
+                        <td class="iphone">13288889999</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td>超级管理员</td>
+                        <td>是</td>
+                        <td>—</td>
+                    </tr>
+                    <tr>
+                        <td>康师傅</td>
+                        <td class="iphone">13288889999</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td>超级管理员</td>
+                        <td>是</td>
+                        <td>—</td>
+                    </tr>
+                    <tr>
+                        <td>康师傅</td>
+                        <td class="iphone">13288889999</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td>超级管理员</td>
+                        <td>是</td>
+                        <td>—</td>
+                    </tr>
+                    <tr>
+                        <td>康师傅</td>
+                        <td class="iphone">13288889999</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td>超级管理员</td>
+                        <td>是</td>
+                        <td>—</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="fanye">
+                <ul>
+                    <li><input type="submit" value="上一页" /></li>
+                    <li>1/1页</li>
+                    <li><input type="submit" value="下一页" /></li>
+                    <li>跳转到第 <input type="text" /> 页</li>
+                    <li><input type="submit" value="确定" /></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+       
+    <!-- 底部 -->
+    <footer class="qiye">
+        <div class="center">
+            <div class="down">
+                <p class="fl">2014 京ICP备14006546号-4.   京公网安备 11010802020241号</p>
+                <p class="fr"><span>联系电话</span> 400 100 8888</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- 遮挡 -->
+    <div class="zhedang"></div>
+    <div class="tishi">
+        <p>提示信息</p>
+        <div class="shouji">1</div>
+        <button>确定</button>
+    </div>
+
+    <!-- 新增 -->
+    <div class="xinzengtan">
+        <h2>员工基本信息</h2>
+        <ul>
+            <li><span>员工姓名</span><input type="text" /></li>
+            <li><span>手机号</span><input type="text" /></li>
+            <li><span>所属部门</span><input type="text" /></li>
+            <li><span>员工编号</span><input type="text" /></li>
+            <li><span>系统角色</span><input type="text" /></li>
+            <li class="radio">
+                <span>是否可使用公司余额</span>
+                <input type="radio" id="yes" name="sex" /><label for="yes">是</label>
+                <input type="radio" id="no" name="sex" /><label for="no">否</label>
+            </li>
+        </ul>
+        <p><input type="submit" value="添加" class="active" /><input type="submit" value="取消" /></p>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/kuCity.js"></script>
+    <script src="js/qiRenyuan.js"></script>
+</body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>下单信息</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/gonggong.css" type="text/css" />
+    <link rel="stylesheet" href="css/onlineOrderOne.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="center">
+            <h1 class="fl">
+                <img src="images/logo.jpg" alt="" />
+                <input type="text" class="search search2" value="哈尔滨"><span class="fa fa-angle-down"></span>
+            </h1>
+            <ul class="fl">
+                <li><a href="index.html">首页<p></p></a></li>
+                <li class="active"><a href="javascript:void(0)">下单<p></p></a></li>
+                <li><a href="myDingdan.html">我的<p></p></a></li>
+                <li><a href="jiage.html">价格<p></p></a></li>
+                <li><a href="zhaomu.html">招募<p></p></a></li>
+                <li><a href="qiIndex.html">企业版<p></p></a></li>
+            </ul>
+            <div class="fr">
+                <input type="submit" value="登录" />|
+                <input type="submit" value="注册" />
+            </div>
+        </div>
+    </header>
+    
+    <!-- banner -->
+    <div class="banner">
+        <div class="center">
+            <h1>快送</h1>
+            <p>送，聚焦共享经济，以互联网+、大数据为依托，专注于即时专人直送，为用户提供7×24小时，平均1分钟响应、15分钟上门、同城1小时速递服务。目前，闪送已开通115个城市，汇集37.83万闪送员，累计6724.57万忠实用户。高效、快捷、贴心的服务，为众多用户的生活带去更多美好体验。</p>
+        </div>
+    </div>
+
+    <!-- 内容 -->
+    <div class="main">
+        <div class="center">
+            <div class="top">
+                <dl>
+                    <dt>寄件信息<span>设为默认</span><a href="#">这是什么</a></dt>
+                    <dd>
+                        <span>寄件地址：</span>
+                        <div>
+                            <input type="text" value="松北区(黑龙江省哈尔滨市)" name='start_name'/>
+                            <em>常用</em>
+                        </div>
+                    </dd>
+                    <dd>
+                        <span>房间号：</span>
+                        <div>
+                            <input type="text" placeholder="请补充单选号-房间号" />
+                        </div>
+                    </dd>
+                    <dd class="duan">
+                        <span>联系人姓名：</span>
+                        <div>
+                            <input type="text" placeholder="请输入联系人姓名" />
+                        </div>
+                    </dd>
+                    <dd class="duan">
+                        <span>手机号：</span>
+                        <div>
+                            <input type="text" placeholder="请输入手机号" />
+                        </div>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>收件信息</dt>
+                    <dd>
+                        <span>寄件地址：</span>
+                        <div>
+                            <input type="text" placeholder="选择寄件地址" />
+                            <em>常用</em>
+                        </div>
+                    </dd>
+                    <dd class="duan">
+                        <span>联系人姓名：</span>
+                        <div>
+                            <input type="text" placeholder="请输入联系人姓名" />
+                        </div>
+                    </dd>
+                    <dd class="duan">
+                        <span>手机号：</span>
+                        <div>
+                            <input type="text" placeholder="请输入手机号" />
+                        </div>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>物品信息</dt>
+                    <dd class="jiajian">
+                        <span>物品重量：</span>
+                        <div>
+                            <em class="disabled">—</em>
+                            <input type="text" value="1" />
+                            <em>+</em>
+                        </div>
+                        <strong>(公斤)</strong>
+                    </dd>
+                    <dd class="duan">
+                        <span>物品名称：</span>
+                        <div>
+                            <input type="text" placeholder="请输入物品名称" />
+                        </div>
+                    </dd>
+                    <dd class="duan">
+                        <span>备注：</span>
+                        <div>
+                            <input type="text" placeholder="请输入您的特别要求" />
+                        </div>
+                        <p>注意：不支持指定闪送员接单，不支持指定交通方式，不支持携带保温箱</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>取件时间</dt>
+                    <dd class="time">
+                        <span>是否预约：</span>
+                        <div>
+                            <button class="active">立即取件</button>
+                            <button>预约取件</button>
+                        </div>
+                    </dd>
+                    <dd class="times duan">
+                        <span>物品名称：</span>
+                        <div>
+                            <input type="date" /><input type="time" />
+                            <span><img src="images/time.png" alt="" /></span>
+                        </div>
+                        <strong>请输入正确的预约时间</strong>
+                        <p>注意：预约时间为闪送员上门取件时间。支持2小时以后，两天以内。</p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="map">
+                <!--百度地图容器-->
+                <div id="dituContent"></div>
+                <div class="zifei">
+                    <ul>
+                        <li>寄件距离：<span class="fr">36.00<em>公里</em></span></li>
+                        <li>物品重量：<span class="fr">5.00<em>公斤</em></span></li>
+                        <li>订单总额：<span class="fr">112.00<em>元</em></span></li>
+                        <li>优惠折扣：<span class="fr">-10.00<em>元</em></span></li>
+                    </ul>
+                    <ul>
+                        <li>【资费说明】<span class="fr"><em>总计:</em> 102.00<em>元</em></span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="btn"><button>下一步</button></div>
+        </div>
+    </div>
+    
+    <!-- 底部 -->
+    <footer>
+        <div class="top">
+            <div class="center">
+                <ul>
+                    <li>公司地址</li>
+                    <li>联系电话</li>
+                    <li>电子邮件</li>
+                </ul>
+                <ul>
+                    <li>北京市海淀区上地三街9号金隅嘉华大厦</li>
+                    <li>400 100 8888</li>
+                    <li>88888888@qq.com</li>
+                </ul>
+                <p><img src="images/erweima.jpg" alt="" /></p>
+                <p><img src="images/erweima.jpg" alt="" /></p>
+            </div>
+        </div>
+        <div class="down">
+            2014 京ICP备14006546号-4.   京公网安备 11010802020241号
+        </div>
+    </footer>
+
+    <div class="zhedang"></div>
+    <div class="tishi">
+        <h1>资费说明</h1>
+        <ul>
+            <li>一、3公里以内，5公斤以下，15元；</li>
+            <li>二、3公里后每增加3km,加收6元；</li>
+            <li>三、5-20公斤每增加1kg,加收2元；</li>
+            <li>四、超出20kg后,每增加1kg,加收5元；</li>
+            <li>五、22:00:00至次日07:00:00下单或此时间段内的预约单，需支付夜间服务费5元；</li>
+        </ul>
+        <button>确定</button>
+    </div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="selectLocation">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">输入地址</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <input type="text" class="form-control" id="location_nmae_input">
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-primary">搜索</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul>
+                                        <li style="line-height: 1.2em; margin:5px;">地址1地址1地址1地址1地址1地址1地址1地址</li>
+                                        <li>地址1地址1地址1地址1地址1地址1地址1地</li>
+                                        <li>地址1地址1地址1地址1地址1地址1地址1地址1地址1地/li>
+                                        <li>地址1地址1地址1地址1地址1地址1地址1地址</li>
+                                        <li>地址1地址1地址1地址1地址1地</li>
+                                        <li>地址1地址1地址1地址1地址1地址1地址1地址1地址1地址1地址1地址1地</li>
+                                        <li>地址1地址1地址1地址1地址1地址1地址1地址1</li>
+                                        <li>地址1地址1地址1地址</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div style="height: 500px;background: #ccc">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary">确定</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/kuCity.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+    <script src="js/map.js"></script>
+    <script src="js/onlineOrder.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <script>
+    $(function(){
+        $('input[name=start_name]').on('click', function(){
+        	console.log(111);
+            $('#selectLocation').modal('show');
+        });
+    });
+</script>
+</body>
+</html>

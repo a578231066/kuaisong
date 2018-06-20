@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>企业注册</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/login.css" type="text/css" />
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="center">
+            <h1 class="fl">
+                <img src="images/logo.jpg" alt="" />
+                <span>快送</span>
+            </h1>
+            <div class="fr">服务热线 : 400-800-9388</div>
+        </div>
+    </header>
+
+    <!-- 内容 -->
+    <div class="qiyeMain">
+        <div class="qiye">
+            <h1>企业账户</h1>
+            <div class="on">
+                <form action="">
+                    <p><input type="text" placeholder="企业名称(工商注册名称)" /></p>
+                    <p class="mima"><input type="text" placeholder="公司地址" /></p>
+                    <p class="name"><input type="text" placeholder="联系人姓名" /></p>
+                    <p class="email"><input type="text" placeholder="邮箱" /></p>
+                    <p class="telephone"><input type="text" placeholder="手机号" /></p>
+                    <p class="yzm"><input type="text" placeholder="短信验证码" /><button>获取验证码</button></p>
+                    <p class="container" enctype="multipart/form-data" method="post" id='formBox' name="form">   
+                       <input type="file" id="chooseImage" name="file">  
+                       <!-- 保存用户自定义的背景图片 -->  
+                       <img id="cropedBigImg" value='custom' src="images/imgBg.jpg" onclick="fileSelect();" data-address=''/>
+                    </p> 
+                    <button>注册</button>
+                    <h6>
+                        <span></span>
+                        <input type="submit" value="登录" />
+                        <span></span>
+                    </h6>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="zhedang"></div>
+    <div class="tishi">
+        <p>提示信息</p>
+        <div class="shouji">1</div>
+        <button>确定</button>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/qiye.js"></script>
+</body>
+</html>

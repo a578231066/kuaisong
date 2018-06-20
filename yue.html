@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>账户余额</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/gonggong.css" type="text/css" />
+    <link rel="stylesheet" href="css/myGonggong.css" type="text/css" />
+    <link rel="stylesheet" href="css/yue.css" type="text/css" />
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="center">
+            <h1 class="fl">
+                <img src="images/logo.jpg" alt="" />
+                <input type="text" class="search search2" value="哈尔滨"><span class="fa fa-angle-down"></span>
+            </h1>
+            <ul class="fl">
+                <li><a href="index.html">首页<p></p></a></li>
+                <li><a href="onlineOrder.html">下单<p></p></a></li>
+                <li class="active"><a href="javascript:void(0)">我的<p></p></a></li>
+                <li><a href="jiage.html">价格<p></p></a></li>
+                <li><a href="zhaomu.html">招募<p></p></a></li>
+                <li><a href="qiIndex.html">企业版<p></p></a></li>
+            </ul>
+            <div class="fr">
+                <input type="submit" value="登录" />|
+                <input type="submit" value="注册" />
+            </div>
+        </div>
+    </header>
+    
+    <!-- banner -->
+    <div class="banner">
+        <div class="center">
+            <h1>快送</h1>
+            <p>送，聚焦共享经济，以互联网+、大数据为依托，专注于即时专人直送，为用户提供7×24小时，平均1分钟响应、15分钟上门、同城1小时速递服务。目前，闪送已开通115个城市，汇集37.83万闪送员，累计6724.57万忠实用户。高效、快捷、贴心的服务，为众多用户的生活带去更多美好体验。</p>
+        </div>
+    </div>
+
+    <!-- 内容 -->
+    <div class="main">
+        <div class="center">
+            <div class="fl">
+                <dl>
+                    <dt>订单管理<span class="fa fa-caret-down"></span></dt>
+                    <dd><a href="myDingdan.html">我的订单</a></dd>
+                </dl>
+                <dl>
+                    <dt>我的账户<span class="fa fa-caret-down"></span></dt>
+                    <dd><a href="yue.html" class="active">账户余额</a></dd>
+                    <dd><a href="chongzhi.html">充值</a></dd>
+                    <dd><a href="youhui.html">优惠券</a></dd>
+                    <dd><a href="zhekou.html">等级折扣</a></dd>
+                    <dd><a href="fapiao.html">申请发票</a></dd>
+                </dl>
+                <dl>
+                    <dt>高级功能<span class="fa fa-caret-down"></span></dt>
+                    <dd><a href="myKaitong.html">开通高级功能</a></dd>
+                </dl>
+                <dl>
+                    <dt>设置<span class="fa fa-caret-down"></span></dt>
+                    <dd><a href="password.html">修改密码</a></dd>
+                </dl>
+            </div>
+            <div class="fr">
+                <h3>兑换优惠券：<input type="text" /><span>兑换</span></h3>
+                <div id="news">
+                    <ul class="tabs">
+                        <li class="on">消费明细<p></p></li>
+                        <li>充值记录<p></p></li>
+                        <li>退款记录<p></p></li>
+                        <dl class="shuoming">
+                            <dd class="on">总消费(￥0)=在线支付(￥0)+余额支付(￥0)+现金寄付(￥0)+现金到付(￥0)+单扣款(￥0)</dd>
+                            <dd>在此时间段内共充值：0元</dd>
+                            <dd>在此时间段内共退款：0元</dd>
+                        </dl>
+                    </ul>
+                    <form action="">
+                        <span>时间</span>
+                        <p>
+                            <input type="date" />—<input type="date" /><em class="fa fa-calendar"></em>
+                        </p>
+                        <div class="fr">
+                            <button>导出本次查询结果</button>
+                        </div>
+                    </form>
+                    <div class="cons">
+                        <div class="on">
+                            <table class="table" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <th>下单时间</th>
+                                    <th>支付信息</th>
+                                    <th>优惠信息</th>
+                                    <th>订单号</th>
+                                </tr>
+                            </table>
+                        </div>
+                        <div>
+                            <table class="table" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <th>充值时间</th>
+                                    <th>充值金额</th>
+                                    <th>支付方式</th>
+                                </tr>
+                            </table>
+                        </div>
+                        <div>
+                            <table class="table" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <th>取消订单时间</th>
+                                    <th>退款金额</th>
+                                    <th>退款说明</th>
+                                    <th>退款说明</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fanye">
+                <ul>
+                    <li><input type="submit" value="上一页" /></li>
+                    <li>1/1页</li>
+                    <li><input type="submit" value="下一页" /></li>
+                    <li>跳转到第 <input type="text" /> 页</li>
+                    <li><input type="submit" value="确定" /></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 底部 -->
+    <footer>
+        <div class="top">
+            <div class="center">
+                <ul>
+                    <li>公司地址</li>
+                    <li>联系电话</li>
+                    <li>电子邮件</li>
+                </ul>
+                <ul>
+                    <li>北京市海淀区上地三街9号金隅嘉华大厦</li>
+                    <li>400 100 8888</li>
+                    <li>88888888@qq.com</li>
+                </ul>
+                <p><img src="images/erweima.jpg" alt="" /></p>
+                <p><img src="images/erweima.jpg" alt="" /></p>
+            </div>
+        </div>
+        <div class="down">
+            2014 京ICP备14006546号-4.   京公网安备 11010802020241号
+        </div>
+    </footer>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/kuCity.js"></script>
+    <script src="js/yue.js"></script>
+</body>
+</html>

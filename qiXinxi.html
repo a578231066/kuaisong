@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>企业设置</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/gonggong.css" type="text/css" />
+    <link rel="stylesheet" href="css/qiXinxi.css" type="text/css" />
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="center">
+            <h1 class="fl">
+                <img src="images/logo.jpg" alt="" />
+                <span>快送企业版</span>
+            </h1>
+            <ul class="fl">
+                <li><a href="qiIndex.html">首页<p></p></a></li>
+                <li><a href="qiRenyuan.html">人员<p></p></a></li>
+                <li><a href="qiDingdan.html">订单<p></p></a></li>
+                <li><a href="qiCaiwu.html">财务<p></p></a></li>
+                <li class="active"><a href="qiXinxi.html">企业设置<p></p></a></li>
+            </ul>
+            <div class="fr">
+                <input type="submit" value="登录" />|
+                <input type="submit" value="注册" />
+            </div>
+        </div>
+    </header>
+
+    <!-- 内容 -->
+    <div class="main">
+        <div class="center">
+            <h1>企业信息维护</h1>
+            <div class="down">
+                <form action="">
+                    <ul>
+                        <li><span><i>*</i>企业名称</span>吉林达利食品有限公司</li>
+                        <li><span>企业信息</span><em>未认证</em>（上传营业执照并审核通过完成认证）</li>
+                        <li class="dizhi"><span><i>*</i>公司地址</span><input type="text" placeholder="德惠市朱城子镇哈拉哈工贸小区" /></li>
+                        <li class="name"><span><i>*</i>联系人姓名</span><input type="text" placeholder="达利园" /></li>
+                        <li class="email"><span>电子邮箱地址</span><input type="text" /></li>
+                        <li class="yzm"><span><i>*</i>手机</span><input type="text" /><button>发送验证码</button></li>
+                        <li class="yzm1"><span><i>*</i>验证码</span><input type="text" placeholder="填写短信验证码" /></li>
+                        <li class="container">
+                            <span>营业执照</span>
+                            <!-- <form enctype="multipart/form-data" method="post" id='formBox' name="form">    -->
+                               <input type="file" id="chooseImage" name="file">  
+                               <!-- 保存用户自定义的背景图片 -->  
+                               <img id="cropedBigImg" value='custom' src="images/qiye/zhizhao.png" onclick="fileSelect();" data-address=''/>
+                            <!-- </form>  -->
+                        </li>
+                        <li class="btn"><button>注册</button></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+       
+    <!-- 底部 -->
+    <footer class="qiye">
+        <div class="center">
+            <div class="down">
+                <p class="fl">2014 京ICP备14006546号-4.   京公网安备 11010802020241号</p>
+                <p class="fr"><span>联系电话</span> 400 100 8888</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/kuCity.js"></script>
+    <script src="js/qiXinxi.js"></script>
+</body>
+</html>
