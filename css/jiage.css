@@ -1,0 +1,32 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.4.17
+    最新更新:2018.4.17
+    修改人员:赵强
+    修改日期:
+    修改原因:
+    修改代码行数区间:
+*/
+
+
+/* 内容 */
+.main .center{ margin-top: -330px; background: #fff; border-top-left-radius:20px; border-top-right-radius:20px; margin-bottom: 40px;}
+.main .center .title{ overflow: hidden; zoom: 1; padding: 10px 20px; font-size: 14px;}
+.main .center .title span{ color: #e60000; font-size: 14px;}
+.main .center .title p.fr span{ font-size: 26px;}
+.main .center .title dt{ font-size: 22px; margin-top: 20px; padding-left: 20px; margin-bottom: 10px; border-left:4px solid #22ac38;}
+.main .center .top{ padding:0 20px 40px 20px;}
+.main .center .top p.btn{ width: 98%; margin:15px auto;}
+.main .center .top p.btn button{ width: 100%; height: 60px; color: #fff; line-height: 60px; font-size: 18px; background: #4d90fe; border:none; border-radius: 5px; cursor: pointer;}
+.main .center .top ul{ padding-left: 20px; font-size: 14px; line-height: 35px;}
+.main .center .top ul li{ margin-left: 40px;}
+.main .center .top ul.gongli li{ margin-left: 30px; padding-top: 10px; color: #999;}
+.main .center .top ul p{color: #4d90fe;}
+.main .center .top ul.yijia li{ margin-left: 50px; list-style-type: disc;}
+.main .center .top p.tiyan{text-align: center;}
+.main .center .top p.tiyan button{width: 220px; height: 50px; background: #4d90fe; color: #fff; border:none; border-radius:5px; font-size: 18px; cursor: pointer; margin-top:30px;}
+
+
+
+
+

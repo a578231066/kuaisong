@@ -1,0 +1,43 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.4.17
+    最新更新:2018.4.17
+    修改人员:赵强
+    修改日期:
+    修改原因:
+    修改代码行数区间:
+*/
+
+
+/* 内容 */
+.main .center{height: 1030px; margin-top: -330px; background: #fff; border-top-left-radius:20px; border-top-right-radius:20px; margin-bottom: 40px;}
+.main .center .title{ overflow: hidden; zoom: 1; line-height: 85px; padding:0 20px; border-bottom:1px dashed #eee; font-size: 14px;}
+.main .center .title span{ color: #e60000; font-size: 14px;}
+.main .center .title p.fr span{ font-size: 26px;}
+.main .center .top{ padding:0 20px 40px 20px; border-bottom:1px solid #eee;}
+.main .center .top dl{overflow: hidden; zoom: 1;}
+.main .center .top dt,.main .center .down dt{ font-size: 22px; margin-top: 20px; padding-left: 20px; margin-bottom: 10px; border-left:4px solid #22ac38;}
+.main .center .top dd{ width: 50%; font-size: 14px; line-height: 40px; float: left;}
+.main .center .top dd span{display: inline-block; width: 40%; text-align: right; margin-right: 10px;}
+.main .center .down{padding:0 20px;}
+.main .center .down dt{ margin-top: 30px;}
+.main .center .down div{ height: 148px; margin-top: 30px; border:1px solid #eee; border-radius: 5px; padding-top: 30px;}
+.main .center .down div>p{ margin-left:55px; font-size: 14px; margin-top: 15px; color: #aaa;}
+.main .center .down div>p a{color: #00a2e5;}
+.main .center .down div dd{ width: 148px; height: 48px; text-align: center; border:1px solid #eee; border-radius: 8px; float: left; padding-top: 10px; font-size: 14px; margin-left: 60px; cursor: pointer; position:relative;}
+.main .center .down div dd p{ color: #f00; font-size: 20px;}
+.main .center .down div dd span{display: inline-block; border-left: 20px solid transparent; border-right: 20px solid transparent; border-bottom: 40px solid #ff8f34; position:relative; position: absolute; right: -18px; bottom: -6px;transform: rotate(10deg); display: none;}
+.main .center .down div dd span p{ position: absolute; top: 14px; left: -8px; font-size: 12px; color: #fff;}
+.main .center .down div dd.active{border:1px solid #ff8f34; overflow: hidden;}
+.main .center .down div dd.active span{display: block;}
+.main .center .down>div{ text-align: center; border:none; height: auto; border-radius:0;}
+.main .center .down>div button{ width: 200px; height: 50px; background: #ff5534; border:none; border-radius: 5px; color: #fff; font-size: 20px; cursor: pointer;}
+
+
+
+
+
+
+
+
+

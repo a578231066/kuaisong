@@ -1,0 +1,30 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.5.10
+    最新更新:2018.5.10
+    修改人员:赵强
+    修改日期:
+    修改原因:
+    修改代码行数区间:
+*/
+.main,.weixinMain{ height: 770px; background: #f2f2f2;}
+.main .top{ height: 220px; line-height: 220px; text-align: center; background: #fff8eb;}
+.main .top h1{ font-size: 32px;}
+.main .top h1 i{ font-size: 60px; color: #f5222d; vertical-align: middle; margin-right: 30px;}
+.main .top h1 img{ vertical-align: middle; margin-right: 30px;}
+
+.main .down{ height: 550px;}
+.main .down div{ width: 350px; margin: 0 auto; padding-top: 30px; box-sizing: border-box;}
+.main .down div li{ color: #aaa; line-height: 40px; font-size: 16px;}
+.main .down div li span{ color: #000; margin-left: 30px;}
+.main .down div li.red span{ color: #e60000;}
+.main .down div button{width: 140px; height: 40px; border:1px solid #ddd; background: #fff; color: #919191; cursor: pointer; margin-top: 50px;}
+.main .down div button:last-child{ margin-left: 30px;}
+.main .down div button:hover{ background: #ed9600; border-color: #ed9600; color: #fff;}
+
+.weixinMain{text-align: center; padding-top: 60px; box-sizing: border-box;}
+.weixinMain h1{ line-height: 70px; font-size: 26px; letter-spacing: 1px; font-weight: 400;}
+.weixinMain img{width: 300px; height: 300px;}
+.weixinMain ul{width: 300px; height: 70px; border-radius: 35px; margin: 20px auto 0; box-shadow: 0px 2px 2px #c1c1c1 inset, 2px 0px 2px #c1c1c1 inset, 0px -2px 2px #c1c1c1 inset, -2px 0px 2px #c1c1c1 inset; background: #e6e6e6; padding-top: 8px; box-sizing: border-box;}
+.weixinMain ul li{ line-height: 25px; font-size: 14px; color: #000;}
+.weixinMain ul li.red{ color: #e60000;}

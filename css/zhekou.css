@@ -1,0 +1,37 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.4.17
+    最新更新:2018.4.17
+    修改人员:赵强
+    修改日期:
+    修改原因:
+    修改代码行数区间:
+*/
+/* 内容 */
+.main div.fr{ font-size: 14px;}
+.main div.fr h2{font-size: 14px;}
+.main div.fr h2 em{ font-size: 20px; font-style: normal; color: #ff8f34;}
+.main div.fr dl{ padding-left: 20px; line-height: 30px; margin-top: 15px; color: #000;}
+.main div.fr dl dt{ padding-left: 10px;}
+.main div.fr dl dd:last-child{ color: #f00;}
+
+.main div.fr ul{ padding-left: 20px; color: #000; margin-top: 10px;}
+.main div.fr ul p{ font-size: 14px; line-height: 35px;}
+.main div.fr ul li{ list-style-type: disc; margin-left: 30px; line-height: 30px;}
+.main div.fr ul em{ font-style: normal; color: #ff8f34;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

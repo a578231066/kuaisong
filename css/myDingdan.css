@@ -1,0 +1,54 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.4.17
+    最新更新:2018.4.17
+    修改人员:赵强
+    修改日期:
+    修改原因:
+    修改代码行数区间:
+*/
+input[type=date]::-webkit-inner-spin-button { visibility: hidden; }
+/* 我的订单 */
+.main div.fr {height: 710px !important;}
+.main div.fr ul{ overflow: hidden; zoom: 1; text-align: center; border-bottom:1px solid #f1f1f1;}
+.main div.fr ul li{float: left; padding: 0 15px; line-height: 68px; cursor: pointer; color: #000; font-size: 12px;}
+.main div.fr ul li p{ width: 30px; margin:0 auto; border:1px solid #2475f0; display: none;}
+.main div.fr ul li.active{ color: #2475f0;}
+.main div.fr ul li.active p{display: block;}
+.main div.fr ul button{ margin-top: 25px; background: #2475f0; border:none; color: #fff; padding: 5px 15px; border-radius: 5px; cursor: pointer;}
+
+.main div.fr form{ overflow: hidden; zoom:1; height: 57px; padding:15px 20px 0 20px; box-sizing: border-box;}
+.main div.fr form span{float: left; color: #000; margin-right: 10px; font-size: 14px; margin-top: 6px;}
+.main div.fr form>p{ float: left; border:1px solid #ddd; border-radius:5px;}
+.main div.fr form>p input{border:none; width: 120px; text-align: center; height: 30px; padding-left: 10px;}
+.main div.fr form>p em{font-size: 14px; width: 30px;}
+.main div.fr form div.fr p{float: left; margin-right: 12px;}
+.main div.fr form div.fr input{ width: 150px; height: 30px; border-top-left-radius:5px; border-bottom-left-radius:5px; border:1px solid #ddd; padding-left: 10px;}
+.main div.fr form div.fr p em{display: inline-block; width: 30px; height: 32px; margin: 0; padding: 0; text-align: center; background: #22ac38; vertical-align: 1.5px; line-height: 31px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; color: #fff; cursor: pointer;}
+.main div.fr form div.fr button{background: #22ac38; color: #fff; border:none; height: 30px; padding:0 15px; border-radius: 5px; cursor: pointer;}
+.main div.fr .table{width: 100%; margin-top: 5px;}
+.main div.fr .table th{ line-height: 40px; background: #f1f1f1;}
+.main div.fr .table td{ line-height: 40px; text-align: center; border-bottom:1px solid #eee;}
+
+/* 翻页 */
+.main .fanye{ width: 76%; height: 60px; background: #fff; margin-top: 30px; float: right;}
+.main .fanye ul{overflow: hidden; float: right; line-height: 60px; zoom: 1; text-align: center; text-align: right; padding-right: 20px;}
+.main .fanye li{float: left; font-size: 14px;}
+.main .fanye li input{ width: 60px; height: 30px; background: none; color: #000; font-size: 14px; border:1px solid #ddd; border-radius: 5px; cursor: pointer;}
+.main .fanye li:nth-child(2),.main .fanye li:nth-child(4){margin:0 15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

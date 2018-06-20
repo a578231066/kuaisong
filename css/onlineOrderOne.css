@@ -1,0 +1,89 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.4.17
+    最新更新:2018.4.17
+    修改人员:赵强
+    修改日期:
+    修改原因:
+    修改代码行数区间:
+*/
+body{background: #f5f5f5;}
+/* 轮播 */
+.banner{ width: 100%; height: 620px; background: url(../images/onlineOrderOneBanner.jpg) no-repeat; background-size: 100% 100%; color: #fff;}
+.banner .center{ padding-left: 40px; padding-top: 80px;}
+.banner h1{ font-weight: 400; line-height: 50px;}
+.banner p{ width: 75%; line-height: 25px;}
+
+/* 内容 */
+.main .center{ margin-top: -330px; background: #fff; border-top-left-radius:20px; border-top-right-radius:20px; margin-bottom: 40px;}
+.main .center .top{ padding:0 20px 40px 20px;}
+.main .center .top dl{overflow: hidden; zoom: 1;}
+.main .center .top dt,.main .center .down dt{ font-size: 22px; margin-top: 20px; padding-left: 20px; margin-bottom: 10px; border-left:4px solid #22ac38;}
+.main .center .top dt span{display: inline-block; font-size: 12px; padding:3px 8px; border-radius:3px; background: #ddd; color: #fff; margin-left: 20px; margin-right: 20px; cursor: pointer;}
+.main .center .top dt a{ color: #00a5eb; font-size: 12px;}
+.main .center .top dd{ width: 100%; font-size: 14px; line-height: 40px; overflow: hidden; zoom: 1; margin-top: 20px;}
+.main .center .top dd span{display: inline-block; width: 20%; float: left; text-align: right; margin-right: 10px;}
+.main .center .top dd div{ width: 550px; height: 42px; float: left; margin-left: 60px; border:1px solid #ddd; border-radius:5px;}
+.main .center .top dd div input{ width: 490px; height: 40px; border:none; padding-left: 10px;}
+.main .center .top dd div em{ width: 42px; height: 40px; text-align: center; font-style: normal; display: inline-block; color: #00a5eb; cursor: pointer; vertical-align: middle; margin-top: -1px; border-left:1px solid #ddd;}
+.main .center .top dd.duan div{width: 276px;}
+.main .center .top dd.duan div input{ width: 260px;}
+.main .center .top dd.duan p{ clear: both; padding-left: 28%; color: #aaa;}
+
+/* 物品信息 */
+.main .center .top dd.jiajian div{width: 267px;}
+.main .center .top dd.jiajian div input{width: 170px; text-align: center; font-size: 17px; font-weight:700;}
+.main .center .top dd.jiajian em{border:none; margin-top: -7px;}
+.main .center .top dd.jiajian em:first-child,.main .center .top dd.jiajian em:last-child{ background: #ed9600; color: #fff; font-size: 14px; font-weight: 700; border-top-left-radius: 5px; border-bottom-left-radius: 5px;}
+.main .center .top dd.jiajian em:last-child{ width: 45px; border-radius:0; border-top-right-radius:5px; border-bottom-right-radius: 5px; font-size: 20px;}
+.main .center .top dd.jiajian strong{ color: #aaa; font-weight: 400; margin-left: 10px;}
+.main .center .top dd.jiajian em.disabled{ background: #ddd;}
+
+/* 取件时间 */
+.main .center .top dd.time div,.main .center .top dd.times div{width: 276px; height: 50px; position:relative;}
+.main .center .top dd.time div button{width: 50%; height: 50px; background: none; cursor: pointer; border:none; float: left;}
+.main .center .top dd.time div button.active{background: #ed9600; color: #fff;}
+.main .center .top dd.time div button:first-child.active{border-top-left-radius:5px; border-bottom-left-radius:5px;}
+.main .center .top dd.time div button:last-child.active{border-top-right-radius:5px; border-bottom-right-radius:5px;}
+.main .center .top dd.times div input{width: 46%; height: 48px;}
+input[type=date]::-webkit-inner-spin-button { visibility: hidden; }
+input[type=time]::-webkit-inner-spin-button { visibility: hidden; }
+.main .center .top dd.times div input:nth-child(2){ width: 33%; border-left:1px solid #ddd;}
+.main .center .top dd.times div{ background: #ddd; background-size:30px 30px;}
+.main .center .top dd.times div span{ display: inline-block;width: 20%; float: right; padding: 0; margin: 0; text-align: center; padding-top: 3px;}
+.main .center .top dd.times div span img{ width: 30px; height: 30px;}
+.main .center .top dd.times strong{ color: #f00; font-weight: 400;margin-left: 10px; line-height: 50px;}
+
+/* 地图 */
+.map{position:relative;}
+#dituContent{width:98%;height:630px;border:1px solid #ddd; margin:0 auto;}
+.map .zifei{ width: 98%; height: 256px; position: absolute; bottom: 0; left: 1%; background: rgba(255,255,255,.8); border-top:1px solid #ddd; border-bottom:1px solid #ddd;}
+.map .zifei ul{width: 98%; margin:0 auto; padding-bottom: 20px; border-bottom:1px solid #ddd;}
+.map .zifei ul li{ margin-top: 20px; font-size: 16px;}
+.map .zifei ul li span{ font-size: 20px; color: #505050;}
+.map .zifei ul li span em{ display: inline-block; width: 35px; text-align:right; font-style: normal; font-size: 14px
+    ;}
+.map .zifei ul:last-child{border:none;}
+.map .zifei ul:last-child li{ color: #f00;}
+.map .zifei ul:last-child li span{ font-size: 30px; color: #f00; line-height: 20px;}
+.map .zifei ul:last-child li span em{ color: #000;}
+.map .zifei ul:last-child li span em:first-child{ margin-right:10px;}
+
+.main .btn{ width: 100%; text-align: center;}
+.main .btn button{ width: 200px; height: 55px; font-size: 22px; color: #fff; background: #4d90fe; border:none; border-radius: 5px; cursor: pointer;}
+
+
+/* 遮挡 */
+.zhedang{width: 100%; background: rgba(0,0,0,.5); position: fixed; top: 0; left: 0; display: none;}
+.tishi{width: 40%; height: 338px; background: #fff; text-align: center; position: fixed; top: 30%; left: 30%; border-radius: 5px; display: none;}
+.tishi h1{ line-height: 80px;}
+.tishi ul{ width: 80%; margin:0 auto; text-align: left; padding-bottom: 20px;}
+.tishi li{ line-height: 35px; color: #000; font-size: 14px;}
+.tishi button{ border:none; border-top:1px solid #f1f1f1; width: 100%; line-height: 60px; font-size: 16px; background: none; color: #0ca4eb; cursor: pointer;}
+
+
+
+
+
+
+

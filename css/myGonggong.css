@@ -1,0 +1,36 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.4.17
+    最新更新:2018.4.17
+    修改人员:赵强
+    修改日期:
+    修改原因:
+    修改代码行数区间:
+*/
+/* 内容 */
+.main .center{ height: auto; overflow: hidden; zoom: 1;}
+.main .center div.fl{width: 20%; height: 800px; background: #fff;}
+.main .center div.fl dl{width: 85%;}
+.main .center div.fl dt{color: #c1c1c1; font-size: 14px; line-height: 50px; padding-left: 18%;}
+.main .center div.fl dt span{ margin-left: 10px;}
+.main .center div.fl dd{ line-height: 30px; padding-bottom: 10px; padding-left: 12%;}
+.main .center div.fl dd a{font-size: 16px; color: #000; background: url(../images/my.png) no-repeat left; background-position: 10px 5px; padding:5px 0 5px 40px; display: inline-block; width: 100px; height: 25px;}
+.main .center div.fl dd span{ color: #aaa; margin-right: 10px; font-size: 22px;}
+.main .center div.fl dl:nth-child(2) dd:nth-child(2) a{background-position: 10px -60px;}
+.main .center div.fl dl:nth-child(2) dd:nth-child(3) a{background-position: 10px -120px;}
+.main .center div.fl dl:nth-child(2) dd:nth-child(4) a{background-position: 10px -182px;}
+.main .center div.fl dl:nth-child(2) dd:nth-child(5) a{background-position: 10px -235px;}
+.main .center div.fl dl:nth-child(2) dd:nth-child(6) a{background-position: 10px -290px;}
+.main .center div.fl dl:nth-child(3) dd:nth-child(2) a{background-position: 10px -335px;}
+.main .center div.fl dl:nth-child(4) dd:nth-child(2) a{background-position: 10px -405px;}
+.main .center div.fl dl dd a.active{background: url(../images/my.png) no-repeat left #ed9600; color: #fff; padding-right: 15px; border-radius: 40px; padding-bottom: 8px; background-position: -114px 5px;}
+.main .center div.fl dl:nth-child(2) dd:nth-child(2) a.active{background-position: -114px -60px;}
+.main .center div.fl dl:nth-child(2) dd:nth-child(3) a.active{background-position: -114px -120px;}
+.main .center div.fl dl:nth-child(2) dd:nth-child(4) a.active{background-position: -114px -182px;}
+.main .center div.fl dl:nth-child(2) dd:nth-child(5) a.active{background-position: -114px -235px;}
+.main .center div.fl dl:nth-child(2) dd:nth-child(6) a.active{background-position: -114px -290px;}
+.main .center div.fl dl:nth-child(3) dd:nth-child(2) a.active{background-position: -114px -335px;}
+.main .center div.fl dl:nth-child(4) dd:nth-child(2) a.active{background-position: -114px -405px;}
+
+.main .center>div.fr{width: 76%; height: 800px; background: #fff;}
+.main .center>div.fr h2{ font-weight: 400; border-bottom:1px solid #eee; padding-left: 20px; line-height: 60px;}

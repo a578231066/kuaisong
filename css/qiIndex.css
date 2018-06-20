@@ -1,0 +1,34 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.4.17
+    最新更新:2018.4.17
+    修改人员:赵强
+    修改日期:
+    修改原因:
+    修改代码行数区间:
+*/
+header h1 span{ font-size: 16px; margin-left: 10px;}
+
+/* 内容 */
+.main .center{ margin-top: 0px;}
+.main .center h1{ line-height: 100px; font-weight: 400;}
+.main .center .top{overflow: hidden; zoom: 1;}
+.main .center .top div{ width: 300px; box-sizing: border-box; background: #fff; float: left; padding:40px 20px 0 20px; line-height: 25px; box-shadow: 0 4px 4px #e4e7f0,0 -4px 4px #e4e7f0,4px 0 4px #e4e7f0, -4px 0 4px #e4e7f0;}
+.main .center .top div:nth-child(2){margin-left: 65px;}
+.main .center .top div:last-child{ float: right;}
+.main .center .top div li:first-child{ text-align: center;}
+.main .center .top div li.size{ font-size: 20px; padding-top: 20px;}
+.main .center .top div li:last-child{padding:20px 0 30px 0;}
+.main .center .top div li em{ font-style: normal; font-size: 22px;}
+.main .center .top div li span{ display: inline-block; background: #2475f0; color: #fff; border-radius: 4px; padding:3px 15px; cursor: pointer; font-size: 16px;}
+.main .center .top div li.jiaoyi{ padding: 5px 0 18px 0;}
+.main .center .top div li.jiaoyi span{ width: 80px; background: none; text-align: center; color: #000; border-radius:0; margin: 0; cursor: text;}
+.main .center .top div li.jiaoyi span.xian{padding: 0; height: 20px; vertical-align: 5px; background: #ddd; width: 1px; cursor: normal;}
+.main .center .top div li.jiaoyi span p{ color: #aaa; font-size: 10px;}
+
+.main .center .down{ height: 400px; background: #fff; padding:0 20px; box-sizing: border-box; margin-top: 40px; box-shadow: 0 4px 4px #e4e7f0,0 -4px 4px #e4e7f0,4px 0 4px #e4e7f0, -4px 0 4px #e4e7f0;}
+.main .center .down h2{ line-height: 60px; font-weight: 400;}
+
+
+
+

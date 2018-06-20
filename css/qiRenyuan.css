@@ -1,0 +1,55 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.4.17
+    最新更新:2018.4.17
+    修改人员:赵强
+    修改日期:
+    修改原因:
+    修改代码行数区间:
+*/
+header h1 span{ font-size: 16px; margin-left: 10px;}
+
+/* 内容 */
+.main{overflow: hidden; zoom: 1;}
+.main .center{ margin-top: 0px;}
+.main .center h1{ line-height: 100px; font-weight: 400;}
+.main .center .top{ height: 70px; background: #fff; box-shadow: 0 3px 3px #e4e7f0,0 -3px 3px #e4e7f0,3px 0 3px #e4e7f0, -3px 0 3px #e4e7f0;}
+.main .center .top p{ float: left; line-height: 70px; padding-left: 20px;}
+.main .center .top p input,.main .center .top p select{width: 120px; height: 25px; padding-left:5px; box-sizing: border-box; border-radius: 5px; border:1px solid #ddd; margin-left: 3px;}
+.main .center .top button{ margin-right: 20px; width: 80px; height: 25px; border:none; color: #fff; background: #2575f0; border-radius:4px; margin-top: 22px; cursor: pointer;}
+
+.main .down{height: auto; margin-top: 10px; background: #fff; box-shadow: 0 3px 3px #e4e7f0,0 -3px 3px #e4e7f0,3px 0 3px #e4e7f0, -3px 0 3px #e4e7f0; padding:0 20px;}
+.main .down .title span{ font-size: 18px; line-height: 60px;}
+.main .down .title p{ float: right; margin-top: 20px; margin-left: 20px; padding:2px 10px; border:1px solid #ddd; border-radius: 4px; cursor: pointer;}
+.main .down .title p img{ vertical-align: -4px; margin-right: 5px;}
+.main .down table{width: 100%;}
+.main .down table th{ line-height: 50px; font-weight: 400; font-size: 16px; border-bottom:1px solid #f1f1f1;}
+.main .down table td{text-align: center; line-height: 70px; font-size: 14px; border-bottom:1px solid #f1f1f1;}
+
+/* 翻页 */
+.main .fanye{ width: 100%; height: 60px; background: #fff; margin: 10px 0 30px 0; float: right; box-shadow: 0 3px 3px #e4e7f0,0 -3px 3px #e4e7f0,3px 0 3px #e4e7f0, -3px 0 3px #e4e7f0;}
+.main .fanye ul{overflow: hidden; float: right; line-height: 60px; zoom: 1; text-align: center; text-align: right; padding-right: 20px;}
+.main .fanye li{float: left; font-size: 14px;}
+.main .fanye li input{ width: 60px; height: 30px; background: none; color: #000; font-size: 14px; border:1px solid #ddd; border-radius: 5px; cursor: pointer;}
+.main .fanye li:nth-child(2),.main .fanye li:nth-child(4){margin:0 15px;}
+
+
+/* 遮挡 */
+.zhedang{width: 100%; background: rgba(0,0,0,.5); position: fixed; top: 0; left: 0; display: none;}
+.tishi{width: 300px; height: 130px; background: #fff; text-align: center; position: fixed; top: 30%; left: 42%; border-radius: 5px; display: none;}
+.tishi p{ line-height: 30px; font-size:1.4em;}
+.tishi .shouji{ line-height: 60px; font-size: 1.2em;}
+.tishi button{ width: 50%; height: 30px; background: #4D90FE; border:none; color: #fff; border-radius: 5px;}
+
+.xinzengtan{ width: 600px; height: 500px; background: #fff; position: absolute; top: 220px; left: 35%; display: none;}
+.xinzengtan h2{ font-weight: 400; line-height: 60px; border-bottom:1px solid #f1f1f1; padding:0 20px;}
+.xinzengtan ul{ margin-top: 10px; line-height: 60px;}
+.xinzengtan ul li span{ display: inline-block; width: 200px; text-align: right; margin-right: 30px; font-size: 14px;}
+.xinzengtan ul li input{width: 200px; height: 30px; border:1px solid #ddd; border-radius: 5px;}
+.xinzengtan ul li.radio input{width: 20px; height: 12px; vertical-align: middle;}
+.xinzengtan ul li.radio{font-size: 14px;}
+.xinzengtan p{text-align: center; color: #fff; margin-top: 10px;}
+/* .xinzengtan p input{ width: 100px; height: 30px; color: #fff; background: #2475f0; border:none; border-radius: 5px; cursor: pointer; font-size: 14px; letter-spacing: 5px;} */
+.xinzengtan p input{ width: 100px; height: 30px; color: #fff; background: #ddd; border:none; border-radius: 5px; cursor: pointer; font-size: 14px; letter-spacing: 5px;}
+.xinzengtan p input:last-child{ margin-left: 20px;}
+.xinzengtan p input:hover,.xinzengtan p input.active{ background: #2475f0;}

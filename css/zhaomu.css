@@ -1,0 +1,40 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.4.17
+    最新更新:2018.4.17
+    修改人员:赵强
+    修改日期:
+    修改原因:
+    修改代码行数区间:
+*/
+/* 轮播 */
+.banner{ background: url(../images/zhaomuBg.jpg) no-repeat; background-size: 100% 100%;}
+.banner h1{ width: 65%; text-align: right; padding-right: 50px; padding-top: 15px; font-size: 44px;}
+.banner h1 p{ width: 62%; line-height: 40px; font-size: 20px}
+.banner div.fl p{ width: 100%; line-height: 15px; padding-top: 5px;}
+.banner div.fl{text-align: center;}
+
+/* 内容 */
+.main .center{ margin-top: -330px; background: #fff; border-top-left-radius:20px; border-top-right-radius:20px; margin-bottom: 40px;}
+.main .center .title{ overflow: hidden; zoom: 1; padding: 10px 20px; font-size: 14px;}
+.main .center .title span{ color: #e60000; font-size: 14px;}
+.main .center .title p.fr span{ font-size: 26px;}
+.main .center .title dt{ font-size: 22px; margin:20px 0; padding-left: 20px; border-left:4px solid #22ac38;}
+.main .center .title li{list-style-type: disc; margin-left: 25px; line-height: 30px;}
+.main .center .title dl:last-child{ margin-bottom: 20px;}
+.main .center .title dl{overflow: hidden; zoom: 1;}
+.main .center .title dl.liucheng{padding-left: 80px;}
+.main .center .title dl.liucheng dt{ padding-left: -20px; margin-left: -80px;}
+.main .center .title dd{width: 25%; float: left; text-align: center;}
+.main .center .title dd img{ margin-bottom: 10px;}
+.main .center .title dd.fa{ width: 5%; line-height: 170px; font-weight: 700; font-size: 28px; color: #ff8f34;}
+
+
+
+
+
+
+
+
+
+
